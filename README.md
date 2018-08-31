@@ -1,2 +1,1 @@
-# My Resume
-
+# My Resume [![CircleCI](https://circleci.com/gh/iqueiroz/resume.svg?style=svg)](https://circleci.com/gh/iqueiroz/resume)
