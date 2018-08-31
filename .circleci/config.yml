@@ -8,6 +8,6 @@ jobs:
       - checkout
       - run:
           name: Export to PDF
-          command: resume.tex
+          command: docker-entrypoint.sh resume.tex
       - store_artifacts:
           path: ~/project/resume.pdf
