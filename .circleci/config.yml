@@ -10,4 +10,4 @@ jobs:
           name: Export to PDF
           command: docker-entrypoint.sh resume.tex
       - store_artifacts:
-          path: ~/resume.pdf
+          path: ~/project/resume.pdf
