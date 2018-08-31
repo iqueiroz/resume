@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: iqueiroz/latexmk
+    steps:
+      - add_ssh_keys
+      - checkout
+      - run:
+          name: Export to PDF
+          command: [resume.tex]
+      - store_artifacts:
+          path: ~/project/resume.pdf
