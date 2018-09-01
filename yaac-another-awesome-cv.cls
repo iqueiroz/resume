@@ -62,7 +62,7 @@
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{fullpage}
-\RequirePackage[margin=1.5cm]{geometry}
+\RequirePackage[margin=1cm]{geometry}
 \RequirePackage{fontawesome}
 \RequirePackage{hyperref}
 \RequirePackage{titlesec}
@@ -228,10 +228,6 @@
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{https://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 
-% Render author's website (optional)
-% Usage: \website{<url>}
-\newcommand*{\website}[1]{\sociallink{\websiteSymbol}{#1}{#1}}
-
 % Render author's viadeo(optional)
 % Usage: \viadeo{<viadeo-nick>}
 \newcommand*{\viadeo}[1]{\sociallink{\viadeoSymbol}{http://www.viadeo.com/fr/profile/#1}{viadeo.com/fr/profile/#1}} 
@@ -249,8 +245,8 @@
 \newcommand*{\email}[1]{\sociallink{\mailSymbol}{mailto:#1}{#1}}
 
 % Render a website link (optional)
-% Usage: \email{<email adress>}
-\newcommand*{\website}[2]{\sociallink{\faExternalLink}{#1}{#2}}
+% Usage: \website{link}{title}
+\newcommand*{\website}[2]{\sociallink{\websiteSymbol}{#1}{#2}}
 
 % Render author's mobile phone (optional)
 % Usage: \smartphone{<mobile phone number>}
