@@ -4,11 +4,12 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue.svg)](https://www.linkedin.com/in/ivan-queiroz)
 [![Resume](https://img.shields.io/badge/Resume-pdf-blue.svg)](https://github.com/iqueiroz/resume/releases/download/latest/resume.pdf)
 
-Repository created to host my resume. It's written in LaTeX the template [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv) with some customizations to fit my needs.
+Repository created to host my resume. It's written in LaTeX using the template [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv) with some customizations to fit my needs.
 
 ## Getting Started
 
-These instructions will allow you to generate a PDF version of my resume on your local machine.
+You can download my resume in the PDF format using the last successfully build [here](https://github.com/iqueiroz/resume/releases/download/latest/resume.pdf).  
+The instructions bellow will guide you to generate a PDF version of my resume on your local machine.
 
 ### Prerequisites
 
