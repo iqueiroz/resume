@@ -31,11 +31,11 @@ Run the image to generate the PDF:
 For linux:
 
 ```bash
-docker run -v $(pwd):/work iqueiroz/latexmk resume.tex
+docker run --rm -v $(pwd):/work iqueiroz/latexmk resume.tex
 ```
 
 For Windows, in command prompt:
 
 ```bash
-docker run -v "%cd%":/work iqueiroz/latexmk resume.tex
+docker run --rm -v "%cd%":/work iqueiroz/latexmk resume.tex
 ```
