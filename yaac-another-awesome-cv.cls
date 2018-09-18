@@ -361,8 +361,8 @@
 
 % Render a skill in the skills environment
 % Usage: \skill{<skill>}{<level>}
-\newcommand\skill[2]{
-  \textbf{#1}    & \foreach \x in {1,...,5}{{\color{accentcolor!80} \ifnumgreater{\x}{#2}{\faCircleThin}{\faCircle}}\enspace } \\
+\newcommand\skill[3]{
+  \textbf{#1}    & \foreach \x in {1,...,5}{{\color{accentcolor!80} \ifnumgreater{\x}{#2}{\faCircleThin}{\faCircle}}\enspace} #3 \\
 }
 
 \newcolumntype{E}{>{\raggedright\arraybackslash}p{\rightcolumnlength}}
