@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/iqueiroz/resume.svg?style=shield)](https://circleci.com/gh/iqueiroz/resume)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue.svg)](https://www.linkedin.com/in/ivan-queiroz)
-[![Resume](https://img.shields.io/badge/Resume-pdf-blue.svg)](https://github.com/iqueiroz/resume/releases/download/202405-update/resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-pdf-blue.svg)](https://github.com/iqueiroz/resume/releases/download/202411-update/resume.pdf)
 
 Repository created to host my resume. It's written in LaTeX using the template [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv) with some customizations to fit my needs.
 
